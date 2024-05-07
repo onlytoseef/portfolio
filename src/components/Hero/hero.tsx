@@ -1,4 +1,3 @@
-import React from 'react';
 import star from '../../assets/icons/Vector.svg';
 import Header from '../Header/header';
 export default function hero() {

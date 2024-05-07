@@ -1,4 +1,3 @@
-import React from 'react';
 import { AiFillInstagram } from 'react-icons/ai';
 import { FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa6';
 import { RiWhatsappFill } from 'react-icons/ri';

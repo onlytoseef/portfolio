@@ -1,4 +1,3 @@
-import React from 'react';
 import scrolling from '../../assets/images/scrolling.svg';
 import { TbWorldCode } from 'react-icons/tb';
 import { ImAndroid } from 'react-icons/im';

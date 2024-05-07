@@ -1,4 +1,3 @@
-import React from 'react';
 import HTML from '../../assets/images/skills/html-1.svg';
 import CSS from '../../assets/images/skills/css-3.svg';
 import JS from '../../assets/images/skills/logo-javascript.svg';
