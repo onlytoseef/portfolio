@@ -7,17 +7,24 @@ export default function about() {
   return (
     <div>
       <div id='about' className='about-section text-center'>
-        <div className='flex sm:flex-row text-center items-center justify-center sm:gap-[20vw] lg:gap-[12vw] flex-col'>
-          <div
-            data-aos='fade-right'
-            className='about-text sm:mt-0 mt-[11vh] text-white font-thin text-[12px]'
-          >
+        <div
+          data-aos='fade-right'
+          className='flex sm:flex-row text-center items-center justify-center sm:gap-[20vw] lg:gap-[12vw] flex-col'
+        >
+          <div className='about-text sm:mt-0 mt-[11vh] text-white font-thin text-[12px]'>
             <p className='sm:text-left'>
               __________________________ About Me !
             </p>
-            <h1 className='sm:text-[50px] sm:text-left text-[50px] font-[400]'>
-              Hi I'm,
-            </h1>
+            <div className='flex sm:flex-row flex-col '>
+              <h1 className='sm:text-[50px] text-[20px] sm:text-left '>
+                Hi I'm,
+              </h1>
+              <div className='typewriter'>
+                <h1 className='text-[50px] text-vermili font-[400]'>
+                  Toseef Rana
+                </h1>
+              </div>
+            </div>
             <p className='sm:w-[330px] sm:text-left sm:text-[14px] w-[80vw] '>
               Hey there, I'm{' '}
               <span className='text-vermili font-bold'>Toseef Rana</span> ! I'm

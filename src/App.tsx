@@ -4,6 +4,7 @@ import Skills from './components/Skills/skills';
 import Hero from './components/Hero/hero';
 import Services from './components/Services/services';
 import Career from './components/Career/career';
+import Projects from './components/Projects/projects';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
@@ -26,6 +27,8 @@ export default function App() {
       <Skills />
 
       <Career />
+
+      <Projects />
     </div>
   );
 }

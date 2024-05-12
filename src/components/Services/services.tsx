@@ -17,7 +17,7 @@ export default function services() {
             </p>
           </div>
           <div
-            data-aos='fade-left'
+            data-aos='fade-right'
             className='flex sm:flex-row items-center flex-col'
           >
             <p className='  text-white sm:text-right text-center  text-[10px]   w-[320px]'>
@@ -27,11 +27,9 @@ export default function services() {
             </p>
             <button
               title="Let's Talk"
-              className='bg-greyWhite hover:bg-vermili cursor-pointer h-12 sm:mt-0 mt-[4vh] rounded-lg sm:ml-7  w-[200px]'
+              className='bg-greyWhite click-button hover:bg-vermili cursor-pointer h-12 sm:mt-0 mt-[4vh] rounded-lg sm:ml-7  w-[200px]'
             >
-              <p className='text-vermili hover:text-white font-bold'>
-                Let's Talk !
-              </p>
+              <p className='text-vermili lets-talk font-bold'>Let's Talk !</p>
             </button>
           </div>
         </div>

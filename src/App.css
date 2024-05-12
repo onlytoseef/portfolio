@@ -5,12 +5,11 @@
 }
 .main-container {
   background-color: #2e3d49;
-  background-image: url(./assets/images/Ellipse.png);
+  background-image: url(./assets/images/Hero.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh;
-  min-width: 100%;
 }
 .about-img {
   box-shadow: rgba(209, 101, 1, 0.2) 0px 7px 29px 0px;
@@ -19,11 +18,11 @@
 .bar {
   transform: rotate(-3.48deg);
   width: 100%;
+  overflow: hidden;
 }
 .about-section {
-  background-image: url(./assets/images/About.png);
+  background-image: url(./assets/images/About.svg);
   height: fit-content;
-  width: 100%;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -34,12 +33,10 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: fit-content;
-  width: 100%;
 }
 .skills-section {
   background-image: url(./assets/images/Experience.svg);
   height: fit-content;
-  width: 100%;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -60,7 +57,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: fit-content;
-  width: 100%;
   font-family: 'Bricolage Grotesque';
 }
 
@@ -70,58 +66,71 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
   height: fit-content;
 }
 .slash {
   transform: rotate(90deg);
 }
 
-/* Scroll Text */
-#scroll-textt {
-  /* animation properties */
-  -moz-transform: translateX(100%);
-  -webkit-transform: translateX(100%);
-  transform: translateX(100%);
-
-  -moz-animation: my-animation 15s linear infinite;
-  -webkit-animation: my-animation 15s linear infinite;
-  animation: my-animation 15s linear infinite;
+.click-button:hover .lets-talk {
+  color: white;
 }
-
-/* for Firefox */
-@-moz-keyframes my-animation {
-  from {
-    -moz-transform: translateX(100%);
-  }
-  to {
-    -moz-transform: translateX(-100%);
-  }
-}
-
-/* for Chrome */
-@-webkit-keyframes my-animation {
-  from {
-    -webkit-transform: translateX(100%);
-  }
-  to {
-    -webkit-transform: translateX(-100%);
-  }
-}
-
-@keyframes my-animation {
-  from {
-    -moz-transform: translateX(100%);
-    -webkit-transform: translateX(100%);
-    transform: translateX(100%);
-  }
-  to {
-    -moz-transform: translateX(-100%);
-    -webkit-transform: translateX(-100%);
-    transform: translateX(-100%);
-  }
+.projects-section {
+  background-image: url(./assets/images/Projects.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: fit-content;
 }
 
 .experience-card:hover .number-heading {
   background-color: #f54a05;
+}
+
+.moving-text {
+  width: 200px; /* Adjust as needed */
+  display: inline-block; /* Allow overflow */
+  overflow: hidden; /* Hide overflowing content */
+  position: relative; /* Enable relative positioning */
+  animation: move-text 10s linear infinite; /* Animation properties */
+}
+@keyframes move-text {
+  from {
+    left: -100%;
+  } /* Start from left side (off-screen) */
+  to {
+    left: 100%;
+  } /* Move to right side (off-screen) */
+}
+
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #f54a05;
+  }
+}
+
+.logo-img {
 }

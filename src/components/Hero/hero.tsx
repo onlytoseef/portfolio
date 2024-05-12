@@ -30,31 +30,37 @@ export default function hero() {
         </div>
 
         <div className=' bg-white bar  h-10 mt-[30vh] sm:mt-[25vh] flex items-center justify-center '>
-          <div className='flex' id='scroll-text'>
+          <div className='flex moving-text' id='scroll-text'>
             <img src={star} width={25} alt='' />
             <p className=' sm:pl-8 pl-2 text-[10px] sm:text-[15px]  sm:pr-8 pr-2 justify-center text-accent font-[500] '>
               Next JS
             </p>
           </div>
-          <div className='flex' id='scroll-text'>
+          <div className='flex moving-text' id='scroll-text'>
             <img src={star} width={25} alt='' />
             <p className=' sm:pl-8 pl-2 text-[10px] sm:text-[15px]  sm:pr-8 pr-2 justify-center text-accent font-[500] '>
               React JS
             </p>
           </div>
-          <div className='flex' id='scroll-text'>
+          <div className='flex moving-text' id='scroll-text'>
+            <img src={star} width={25} alt='' />
+            <p className=' sm:pl-8 pl-2 text-[10px] sm:text-[15px]  sm:pr-8 pr-2 justify-center text-accent font-[500] '>
+              Rest API
+            </p>
+          </div>
+          <div className='flex moving-text' id='scroll-text'>
             <img src={star} width={25} alt='' />
             <p className=' sm:pl-8 pl-2 text-[10px] sm:text-[15px]  sm:pr-8 pr-2 justify-center text-accent font-[500] '>
               Firebase
             </p>
           </div>
-          <div className='flex' id='scroll-text'>
+          <div className='flex moving-text' id='scroll-text'>
             <img src={star} width={25} alt='' />
             <p className=' sm:pl-8 pl-2 text-[10px] sm:text-[15px]  sm:pr-8 pr-2 justify-center text-accent font-[500] '>
               Mongo DB
             </p>
           </div>
-          <div className='flex' id='scroll-text'>
+          <div className='flex moving-text' id='scroll-text'>
             <img src={star} width={25} alt='' />
             <p className=' sm:pl-8 pl-2 text-[10px] sm:text-[15px]  sm:pr-8 pr-2 justify-center text-accent font-[500] '>
               Amazon AWS
