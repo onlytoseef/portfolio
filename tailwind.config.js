@@ -3,6 +3,9 @@ export default {
   content: ['./index.html', './src/**/*.{jsx,tsx}'],
   theme: {
     extend: {
+      fontFamily: {
+        customFont: ['"myFont"', 'Bricolage Grotesque'],
+      },
       colors: {
         accent: '#0E7C7B',
         vermili: '#F54A05',

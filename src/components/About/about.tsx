@@ -63,11 +63,7 @@ export default function about() {
             </p>
           </div>
           <div data-aos='zoom-in' className='about-img sm:mt-0 mt-[-90]'>
-            <img
-              src={profileImage}
-              className='hover:bg-vermili sm:w-[26vw] w-[16em]'
-              alt=''
-            />
+            <img src={profileImage} className=' sm:w-[26vw] w-[16em]' alt='' />
           </div>
         </div>
       </div>

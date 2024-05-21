@@ -9,7 +9,12 @@ import RN from '../../assets/images/skills/react-native-1.svg';
 import NEXTJS from '../../assets/images/skills/next-js.svg';
 import FIREBASE from '../../assets/images/skills/firebase-1.svg';
 import MDB from '../../assets/images/skills/mongodb-icon-1.svg';
+import ServiceCard from '../ServiceCard/serviceCard';
 import AWS from '../../assets/images/skills/aws-2.svg';
+import Node from '../../assets/images/skills/nodejs-icon.svg';
+import GIT from '../../assets/images/skills/github-icon-1.svg';
+import Express from '../../assets/images/skills/express-109.svg';
+import api from '../../assets/images/skills/postman.svg';
 export default function skills() {
   return (
     <div className='skill-section  '>
@@ -22,148 +27,118 @@ export default function skills() {
       <div className='grid sm:grid-cols-12  mt-16 justify-items-center  p-5 gap-4'>
         <div
           data-aos='fade-up'
-          className='min-h-[100px]  w-[250px]  col-span-3 bg-cardBg rounded flex flex-col justify-end'
+          className='min-h-[100px]  w-[250px]  col-span-3  rounded flex flex-col justify-end'
         >
-          <div className='flex flex-col items-center p-4'>
-            <img src={HTML} alt='' width={50} className='mb-auto' />
-            <h1 className='text-greyWhite text-[30px] sm:text-[30px] font-[400]'>
-              HTML
-            </h1>
-          </div>
+          <ServiceCard title='HTML' imgSrc={HTML} />
         </div>
 
         <div
           data-aos='fade-up'
-          className='min-h-[100px]  w-[250px]  col-span-3 bg-cardBg rounded flex flex-col justify-end'
+          className='min-h-[100px]  w-[250px]  col-span-3  rounded flex flex-col justify-end'
         >
-          <div className='flex flex-col items-center p-4'>
-            <img src={CSS} alt='' width={50} className='mb-auto' />
-            <h1 className='text-greyWhite text-[30px] sm:text-[30px] font-[400]'>
-              CSS
-            </h1>
-          </div>
+          <ServiceCard title='CSS' imgSrc={CSS} />
         </div>
 
         <div
           data-aos='fade-up'
-          className='min-h-[100px]  w-[250px]  col-span-3 bg-cardBg rounded flex flex-col justify-end'
+          className='min-h-[100px]  w-[250px]  col-span-3  rounded flex flex-col justify-end'
         >
-          <div className='flex flex-col items-center p-4'>
-            <img src={JS} alt='' width={50} className='mb-auto' />
-            <h1 className='text-greyWhite text-[30px] sm:text-[30px] font-[400]'>
-              JavaScript
-            </h1>
-          </div>
+          <ServiceCard title='JavaScript' imgSrc={JS} />
         </div>
 
         <div
           data-aos='fade-up'
-          className='min-h-[100px]  w-[250px]  col-span-3 bg-cardBg rounded flex flex-col justify-end'
+          className='min-h-[100px]  w-[250px]  col-span-3  rounded flex flex-col justify-end'
         >
-          <div className='flex flex-col items-center p-4'>
-            <img src={TS} alt='' width={50} className='mb-auto' />
-            <h1 className='text-greyWhite text-[30px] sm:text-[30px] font-[400]'>
-              Typescript
-            </h1>
-          </div>
+          <ServiceCard title='TypeScript' imgSrc={TS} />
         </div>
       </div>
       <div className='grid sm:grid-cols-12 justify-items-center p-5 gap-4'>
         <div
           data-aos='fade-up'
-          className='min-h-[100px]  w-[250px]  col-span-3 bg-cardBg rounded flex flex-col justify-end'
+          className='min-h-[100px]  w-[250px]  col-span-3  rounded flex flex-col justify-end'
         >
-          <div className='flex flex-col items-center p-4'>
-            <img src={BOOTSTRAP} alt='' width={50} className='mb-auto' />
-            <h1 className='text-greyWhite text-[30px] sm:text-[30px] font-[400]'>
-              Bootstrap
-            </h1>
-          </div>
+          {' '}
+          <ServiceCard title='Bootstrap' imgSrc={BOOTSTRAP} />
         </div>
 
         <div
           data-aos='fade-up'
-          className='min-h-[100px]  w-[250px]  col-span-3 bg-cardBg rounded flex flex-col justify-end'
+          className='min-h-[100px]  w-[250px]  col-span-3  rounded flex flex-col justify-end'
         >
-          <div className='flex flex-col items-center p-4'>
-            <img src={TAILWIND} alt='' width={50} className='mb-auto' />
-            <h1 className='text-greyWhite text-[30px] sm:text-[30px] font-[400]'>
-              Tailwind <span className='text-[#06B6D4]'>CSS</span>
-            </h1>
-          </div>
+          <ServiceCard title='Talwind CSS' imgSrc={TAILWIND} />
         </div>
 
         <div
           data-aos='fade-up'
-          className='min-h-[100px]  w-[250px]  col-span-3 bg-cardBg rounded flex flex-col justify-end'
+          className='min-h-[100px]  w-[250px]  col-span-3  rounded flex flex-col justify-end'
         >
-          <div className='flex flex-col items-center p-4'>
-            <img src={REACT} alt='' width={50} className='mb-auto' />
-            <h1 className='text-greyWhite text-[30px] sm:text-[30px] font-[400]'>
-              React <span className='text-[#61DAFB]'>JS</span>
-            </h1>
-          </div>
+          <ServiceCard title='React JS' imgSrc={REACT} />
         </div>
 
         <div
           data-aos='fade-up'
-          className='min-h-[100px]  w-[250px]  col-span-3 bg-cardBg rounded flex flex-col justify-end'
+          className='min-h-[100px]  w-[250px]  col-span-3  rounded flex flex-col justify-end'
         >
-          <div className='flex flex-col items-center p-4'>
-            <img src={RN} alt='' width={65} className='mb-auto' />
-            <h1 className='text-greyWhite text-[30px] sm:text-[30px] font-[400]'>
-              React <span className='text-[#61DAFB]'>Native</span>
-            </h1>
-          </div>
+          <ServiceCard title='RN' imgSrc={RN} />
         </div>
       </div>
-      <div className='grid sm:grid-cols-12 justify-items-center p-5 gap-4'>
+      <div className='grid sm:grid-cols-12 pb-12 justify-items-center p-5 gap-4'>
         <div
           data-aos='fade-up'
-          className='min-h-[100px]  w-[250px]  col-span-3 bg-cardBg rounded flex flex-col justify-end'
+          className='min-h-[100px]  w-[250px]  col-span-3  rounded flex flex-col justify-end'
         >
-          <div className='flex flex-col items-center p-4'>
-            <img src={NEXTJS} alt='' width={50} className='mb-auto' />
-            <h1 className='text-greyWhite text-[30px] sm:text-[30px] font-[400]'>
-              Next JS
-            </h1>
-          </div>
+          <ServiceCard title='Next JS' imgSrc={NEXTJS} />
         </div>
 
         <div
           data-aos='fade-up'
-          className='min-h-[140px] w-[250px]  col-span-3 bg-cardBg rounded flex flex-col justify-end'
+          className='min-h-[140px] w-[250px]  col-span-3  rounded flex flex-col justify-end'
         >
-          <div className='flex flex-col items-center p-4'>
-            <img src={FIREBASE} alt='' width={30} className='mb-auto' />
-            <h1 className='text-greyWhite text-[30px] sm:text-[30px] font-[400]'>
-              Firebase
-            </h1>
-          </div>
+          <ServiceCard title='Firebase' imgSrc={FIREBASE} />
         </div>
 
         <div
           data-aos='fade-up'
-          className='min-h-[100px]  w-[250px]  col-span-3 bg-cardBg rounded flex flex-col justify-end'
+          className='min-h-[100px]  w-[250px]  col-span-3  rounded flex flex-col justify-end'
         >
-          <div className='flex flex-col items-center p-4'>
-            <img src={MDB} alt='' width={50} className='mb-auto' />
-            <h1 className='text-greyWhite text-[30px] sm:text-[30px] font-[400]'>
-              Mongo <span className='text-[#6CAC48]'>DB</span>
-            </h1>
-          </div>
+          <ServiceCard title='Mongo DB' imgSrc={MDB} />
         </div>
 
         <div
           data-aos='fade-up'
-          className='min-h-[100px]  w-[250px]  col-span-3 bg-cardBg rounded flex flex-col justify-end'
+          className='min-h-[100px]  w-[250px]  col-span-3  rounded flex flex-col justify-end'
         >
-          <div className='flex flex-col items-center p-4'>
-            <img src={AWS} alt='' width={50} className='mb-auto' />
-            <h1 className='text-greyWhite text-[30px] sm:text-[30px] font-[400]'>
-              Amazon <span className='text-[#FF9900]'>AWS</span>
-            </h1>
-          </div>
+          <ServiceCard title='AWS' imgSrc={AWS} />
+        </div>
+      </div>
+      <div className='grid sm:grid-cols-12 pb-12 justify-items-center p-5 gap-4'>
+        <div
+          data-aos='fade-up'
+          className='min-h-[100px]  w-[250px]  col-span-3  rounded flex flex-col justify-end'
+        >
+          <ServiceCard title='Node JS' imgSrc={Node} />
+        </div>
+
+        <div
+          data-aos='fade-up'
+          className='min-h-[140px] w-[250px]  col-span-3  rounded flex flex-col justify-end'
+        >
+          <ServiceCard title='Express' imgSrc={Express} />
+        </div>
+
+        <div
+          data-aos='fade-up'
+          className='min-h-[100px]  w-[250px]  col-span-3  rounded flex flex-col justify-end'
+        >
+          <ServiceCard title='Rest API' imgSrc={api} />
+        </div>
+
+        <div
+          data-aos='fade-up'
+          className='min-h-[100px]  w-[250px]  col-span-3  rounded flex flex-col justify-end'
+        >
+          <ServiceCard title='GitHub' imgSrc={GIT} />
         </div>
       </div>
     </div>

@@ -5,6 +5,7 @@ import Hero from './components/Hero/hero';
 import Services from './components/Services/services';
 import Career from './components/Career/career';
 import Projects from './components/Projects/projects';
+import Contact from './components/Contact/contact';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
@@ -29,6 +30,8 @@ export default function App() {
       <Career />
 
       <Projects />
+
+      <Contact />
     </div>
   );
 }

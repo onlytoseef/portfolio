@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Toseef from '../../assets/images/Picsart_24-05-08_11-25-56-895.png';
+import Toseef from '../../assets/images/Logo.svg';
 
 const Header: React.FC = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -10,12 +10,10 @@ const Header: React.FC = () => {
 
   return (
     <header className='bg-transparent text-white p-4 flex justify-between items-center relative'>
-      {/* Logo */}
       <div className='flex items-center'>
-        <img src={Toseef} className='logo-img' alt='Brand Logo' width={100} />
+        <img src={Toseef} className='logo-img' alt='Brand Logo' width={70} />
       </div>
 
-      {/* Toggle button for mobile */}
       <button
         onClick={toggleMenu}
         className='lg:hidden absolute top-1/2 right-4 transform -translate-y-1/2 focus:outline-none text-white'
@@ -51,7 +49,6 @@ const Header: React.FC = () => {
         )}
       </button>
 
-      {/* Navigation links */}
       <nav
         className={`lg:flex absolute top-full ml-[250px] lg:static lg:flex-row bg-gray-800 lg:bg-transparent lg:justify-end lg:space-x-4 ${
           menuOpen ? 'block' : 'hidden'
@@ -69,7 +66,7 @@ const Header: React.FC = () => {
             </a>
           </li>
           <li>
-            <a href='#' className='hover:text-vermili'>
+            <a href='#projects' className='hover:text-vermili'>
               Portfolio
             </a>
           </li>
