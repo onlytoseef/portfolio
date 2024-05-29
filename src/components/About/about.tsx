@@ -26,13 +26,11 @@ export default function about() {
               </div>
             </div>
             <p className='sm:w-[330px] sm:text-left sm:text-[14px] w-[80vw] '>
-              Hey there, I'm{' '}
-              <span className='text-vermili font-bold'>Toseef Rana</span> ! I'm
-              the digital ninja who can turn coffee into code and bugs into
-              features faster than you can say "syntax error". With my keyboard
-              as my trusty sword and my screen as my canvas, I'm here to make
-              your digital dreams a reality. <br /> <br /> Let's turn ideas into
-              pixels and bring magic to the web,
+              ! I'm the digital ninja who can turn coffee into code and bugs
+              into features faster than you can say "syntax error". With my
+              keyboard as my trusty sword and my screen as my canvas, I'm here
+              to make your digital dreams a reality. <br /> <br /> Let's turn
+              ideas into pixels and bring magic to the web,
               <span className='font-bold'> “One line of code at a time!”</span>
             </p>
             <br />

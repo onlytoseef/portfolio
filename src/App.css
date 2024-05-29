@@ -11,8 +11,8 @@
   background-position: center;
   height: fit-content;
 }
-.about-img {
-  box-shadow: rgba(209, 101, 1, 0.2) 0px 7px 29px 0px;
+header {
+  position: sticky;
 }
 
 .bar {
@@ -41,6 +41,7 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 body {
   scroll-behavior: smooth;
   font-family: 'Bricolage Grotesque';

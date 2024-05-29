@@ -7,15 +7,15 @@ export default function projects() {
   return (
     <div>
       <div className='projects-section' id='projects'>
-        <div className='flex flex-col pt-12 items-center justify-center'>
+        <div className='flex flex-col pt-12 items-center '>
           <p className='text-[12px] text-white'>__________________ Best Work</p>
           <h1 className='text-vermili text-[50px]'>Projects</h1>
         </div>
         <div
           data-aos='fade-up'
-          className='flex sm:flex-row justify-center items-center justify-content-space-between flex-col'
+          className='flex sm:flex-row justify-center items-center  justify-content-space-between flex-col'
         >
-          <div className='sm:w-40 mt-10 sm:mt-10 md:mr-10 sm:text-right text-center'>
+          <div className='sm:w-40 mt-10 sm:mt-10 items-center md:mr-10 sm:text-right text-center'>
             <h1 className='text-white  font-[400] text-[35px]'>
               Real-time Weather Application
             </h1>

@@ -21,9 +21,10 @@ export default function services() {
             className='flex sm:flex-row items-center flex-col'
           >
             <p className='  text-white sm:text-right text-center  text-[10px]   w-[320px]'>
-              Lorem ipsum dolor sit amet consectetur. Tincidunt sed semper
-              gravida amet pretium nulla eget feugiat quam. Libero risus
-              dictumst dolor nunc aliquet.
+              Expert MERN stack developer skilled in MongoDB, Express.js,
+              React.js, and Node.js. Creating dynamic web applications with
+              clean, maintainable code. Let's collaborate to bring your project
+              to life!
             </p>
             <button
               title="Let's Talk"

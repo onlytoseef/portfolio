@@ -9,7 +9,7 @@ const Header: React.FC = () => {
   };
 
   return (
-    <header className='bg-transparent text-white p-4 flex justify-between items-center relative'>
+    <header className='bg-transparent text-white sm:p-8 flex justify-between items-center relative'>
       <div className='flex items-center'>
         <img src={Toseef} className='logo-img' alt='Brand Logo' width={70} />
       </div>
