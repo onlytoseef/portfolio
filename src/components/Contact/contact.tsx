@@ -12,7 +12,7 @@ const ColoredLine = ({ color }: { color: string }) => (
 export default function contact() {
   return (
     <div>
-      <div className='contact-session'>
+      <div id='contact' className='contact-session'>
         <div className=' text-center'>
           <div data-aos='fade-up' className='contact-container pt-14'>
             <p className='text-[12px] text-white'>

@@ -1,15 +1,36 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Toseef from '../../assets/images/Logo.svg';
 
 const Header: React.FC = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
 
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
-    <header className='bg-transparent text-white sm:p-8 flex justify-between items-center relative'>
+    <header
+      className={`${
+        scrolled ? 'bg-red-500 shadow-lg' : 'bg-transparent'
+      } sm:px-8 text-white flex justify-between items-center relative sticky top-0 z-50 transition-all duration-300`}
+    >
       <div className='flex items-center'>
         <img src={Toseef} className='logo-img' alt='Brand Logo' width={70} />
       </div>
@@ -71,7 +92,7 @@ const Header: React.FC = () => {
             </a>
           </li>
           <li>
-            <a href='#' className='hover:text-vermili'>
+            <a href='#contact' className='hover:text-vermili'>
               Contact Me
             </a>
           </li>

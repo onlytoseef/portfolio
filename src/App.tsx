@@ -9,6 +9,7 @@ import Contact from './components/Contact/contact';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import Header from './components/Header/header';
 
 export default function App() {
   useEffect(() => {
@@ -19,6 +20,8 @@ export default function App() {
 
   return (
     <div>
+      <Header />
+
       <Hero />
 
       <About />

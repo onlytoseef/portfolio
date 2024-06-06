@@ -6,7 +6,7 @@ export default function career() {
           <p className='text-greyWhite text-[12px] '>
             ___________________ Career So Far
           </p>
-          <h1 className='text-[50px] text-vermili'>Exprience</h1>
+          <h1 className='text-[50px] text-vermili'>Experience</h1>
         </div>
         <div className='grid gap-4 p-3 gap-x-4 mt-9  justify-items-center '></div>
         <div className='grid gap-4 p-3 justify-items-center '>

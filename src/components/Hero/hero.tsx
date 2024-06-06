@@ -1,10 +1,8 @@
 import star from '../../assets/icons/Vector.svg';
-import Header from '../Header/header';
 export default function hero() {
   return (
     <div className='main-container'>
-      <Header />
-      <div className='flex flex-col justify-center items-center sm:mt-[27vh] mt-[30vh]'>
+      <div className='flex flex-col justify-center items-center sm:pt-[27vh] pt-[30vh]'>
         <div
           data-aos='fade-up'
           className='text-white font-thin text-[25px] md:text-[50px] lg:text-[50px]'
